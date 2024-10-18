@@ -1,0 +1,30 @@
+.favoritePageWrapper{
+    padding: 20px
+}
+
+.listWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    padding-right: 40px;
+    margin-bottom: 60px;
+}
+
+.recipeCard{    
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;   
+    flex: 1 1 18%;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 10px; 
+    transition: box-shadow 0.3s; 
+}
+
+.FarovitePageHeader{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

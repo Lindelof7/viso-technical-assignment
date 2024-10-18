@@ -1,0 +1,11 @@
+.recipeDetailWrap{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ingredientsList{
+    font-style: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

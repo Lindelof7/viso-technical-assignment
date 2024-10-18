@@ -1,0 +1,129 @@
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.headerWrap{
+    display: flex; 
+  justify-content: center;
+    align-items: center; 
+}
+
+.catSelect{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px; 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #ffffff; 
+    color: #333333; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+.listWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    padding-right: 40px;
+    margin-bottom: 60px;
+}
+
+.recipeCard{    
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;   
+    flex: 1 1 18%;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 10px; 
+    transition: box-shadow 0.3s; 
+}
+
+.recipeImg{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paginationList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.paginationButton{
+    width: 40px;
+    height: 40px;
+    background-color: #2f495a; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.findRecipeInput{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #ffffff;
+    color: #333333; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.favoriteButton{
+    width: 180px;
+    color: #007bff; 
+  text-decoration: none; 
+  font-weight: 500; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  background-color: #dadadb; 
+  transition: all 0.3s ease; 
+  cursor: pointer;
+}
+
+.linkToFavorite{
+    margin-left: 20px;
+    color: #007bff; 
+  text-decoration: none; 
+  font-weight: 500; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  background-color: #dadadb; 
+  transition: all 0.3s ease; 
+}
+
+.linkToRecipeDetail{
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: 500; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: #dadadb; 
+    transition: all 0.3s ease; 
+}
